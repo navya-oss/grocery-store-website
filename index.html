@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Shopping</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Grocery Shop</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#cart">Cart</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <div class="nav-search border">
+                    <select class="search-select">
+                        <option>All</option>
+                    </select>
+                    <input placeholder="search Groceries" class="search-input">
+                    <div class="search-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+                <li><a href="#Profile">Customer Profile</a></li>
+                <div class="cart-items">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <li><a href="#Help">Help ?</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h2>Fresh and Organic Groceries</h2>
+    </section>
+    
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-list">
+            <div class="product">
+                <h3>Fruits</h3>
+                <div class="image" style="background-image: url('OIP\ \(4\).jpeg');"></div>
+                <a href="#see more">see more</a>
+            </div>
+            <div class="product">
+                <h3>Vegetables</h3>
+                <div class="image" style="background-image: url('vegetables.webp');"></div>
+                <a href="#see more">see more</a>
+            </div>
+            <div class="product">
+                <h3>Flours</h3>
+                <div class="image" style="background-image: url('OIP.jpeg');"></div>
+                <a href="#see more">see more</a>
+            </div>
+            <div class="product">
+                <h3>Soft Drinks</h3>
+                <div class="image" style="background-image: url('OIP\ \(1\).jpeg');"></div>
+                <a href="#see more">see more</a>
+            </div>
+            <div class="product">
+                <h3>Snacks Store</h3>
+                <div class="image" style="background-image: url('OIP\ \(2\).jpeg');"></div>
+                <a href="#see more">see more</a>
+            </div>
+            <div class="product">
+                <h3>Fresh Meet</h3>
+                <div class="image" style="background-image: url('OIP\ \(3\).jpeg');"></div>
+                <a href="#see more">see more</a>
+            </div>
+            <div class="product">
+                <h3>Sauce</h3>
+                <div class="image" style="background-image: url('iStock-1152762295-1200x900.jpg');"></div>
+                <a href="#see more">see more</a>
+            </div>
+            <div class="product">
+                <h3>Noodles</h3>
+                <div class="image" style="background-image: url('Spicy-Thai-Noodles-5.jpg');"></div>
+                <a href="#see more">see more</a>
+            </div>
+            
+        </div>
+    </section>
+    
+    <section id="cart">
+        <h2>Shopping Cart</h2>
+        <ul id="cart-items"></ul>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us: 91-6783216501</h2>
+        <p>Email: support@groceryshop.com</p>
+    </section>
+</body>
+<script defer src="script.js"></script>
+</html>
